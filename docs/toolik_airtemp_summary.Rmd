@@ -37,9 +37,9 @@ toolik_mean_temp_month <- ggplot(data = toolik_weather,
   scale_color_gradient(low = "blue", high = "orange")
 
 # save a ggplot object to a selected folder 
-ggsave(plot = toolik_mean_temp_month, 
-       here::here("figs", "toolik_mean_temp_month.png"), 
-       height = 6, 
+ggsave(plot = toolik_mean_temp_month,
+       here::here("figs", "toolik_mean_temp_month.png"),
+       height = 6,
        width = 7)
 ```
 
